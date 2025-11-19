@@ -4,16 +4,9 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-<<<<<<< Updated upstream
-      -  name: Log text
-         run: echo "Hello world"
-      -  name: Print goodbye
-         run: echo "Done -  bye!"
-=======
       - name: Print greeting
         run: |
           echo "Hello World"
           echo "Runs a multiline command"
       - name: Print goodbye
         run: echo "Goodbye amigo"
->>>>>>> Stashed changes
